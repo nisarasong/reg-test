@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>REG</title>
+  <link rel="icon" type="image/gif/png" href="https://cdn4.iconfinder.com/data/icons/flatified/128/clipboard.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link href="https://fonts.googleapis.com/css?family=Kanit:200" rel="stylesheet">
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+
+
+<style media="screen">
+
+  .bg-cus{
+background-color:#9932CC;}
+#navbarSupportedContent > ul > li > a{
+  color:white;
+
+}
+body > div:nth-child(4) > div > div > div > a{
+  color:white;
+  font-size:14px;
+}
+body > div:nth-child(4){
+  background-color: #660066;
+    }
+      .box {
+        border-radius: 5px;
+        box-shadow: 0 2px 30px rgba(black, .2);
+        background: lighten(#f0f4c3, 10%);
+
+        overflow: hidden;
+        transform: translate3d(0, 0, 0);
+      }
+
+      .wave {
+        opacity: .4;
+        position: absolute;
+        background: #0099ff;
+        width: 300%;
+        height: 100%;
+        margin-left: -250px;
+        margin-top: -250px;
+        transform-origin: 50% 48%;
+        border-radius: 43%;
+        animation: drift 200000ms infinite linear;
+      }
+
+      .wave.-three {
+        animation: drift 100000ms infinite linear;
+      }
+
+      .wave.-two {
+        animation: drift 30000ms infinite linear;
+        opacity: .1;
+        background: yellow;
+      }
+
+      .box:after {
+        content: '';
+        display: block;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(#e8a, 1), rgba(#def, 0) 80%, rgba(white, .5));
+        z-index: 11;
+        transform: translate3d(0, 0, 0);
+      }
+
+
+      @keyframes drift {
+        from { transform: rotate(0deg); }
+        from { transform: rotate(360deg); }
+      }
+      
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+input[type=password]::-ms-reveal, input[type=password]::-ms-clear {
+  display: none;
+}
+
+input[type="email"], input[type="password"], input[type="submit"] {
+  -webkit-border-top-left-radius: 360px;
+  -moz-border-top-left-radius: 360px;
+  -ms-border-top-left-radius: 360px;
+  border-top-left-radius: 360px;
+  -webkit-border-top-right-radius: 360px;
+  -moz-border-top-right-radius: 360px;
+  -ms-border-top-right-radius: 360px;
+  border-top-right-radius: 360px;
+  -webkit-border-bottom-left-radius: 360px;
+  -moz-border-bottom-left-radius: 360px;
+  -ms-border-bottom-left-radius: 360px;
+  border-bottom-left-radius: 360px;
+  -webkit-border-bottom-right-radius: 360px;
+  -moz-border-bottom-right-radius: 360px;
+  -ms-border-bottom-right-radius: 360px;
+  border-bottom-right-radius: 360px;
+}
+
+input[type="email"], input[type="password"] {
+  padding-left: 2.75em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-image: url("11.jpg");
+  color: white;
+  border: 0;
+  padding: 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #660066;
+}
+
+label {
+  display: inline;
+  position: absolute;
+  top: 0.65em;
+  left: 2.30em;
+  color: #999999;
+}
+
+form {
+  position: relative;
+}
+
+form .row .row {
+  margin: 0 -0.9375rem;
+}
+
+body {
+  color: #999999;
+  background-size: cover;
+}
+
+/*p.intro1, p.intro2 {
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+  margin-bottom: 40px;
+  font-family: 'Open Sans';
+}
+
+p.intro2 {
+  opacity: 0;
+}*/
+
+.wrapper, .morphHeader {
+ font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-top-left-radius: 6px;
+  -ms-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  -ms-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-bottom-left-radius: 6px;
+  -ms-border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-bottom-right-radius: 6px;
+  -ms-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.header, .footer, .morphHeader {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header, .morphHeader {
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-top-left-radius: 6px;
+  -ms-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  -ms-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  -ms-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  -ms-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 1em;
+  background-image: url("11.jpg");
+  padding: 1.5em;
+  color: white;
+}
+
+.username {
+  padding-top: 1.25rem;
+}
+
+.submit, .footer {
+  padding-bottom: 1.25rem;
+}
+
+.morphButton {
+  z-index: 999;
+  -webkit-border-top-left-radius: 360px;
+  -moz-border-top-left-radius: 360px;
+  -ms-border-top-left-radius: 360px;
+  border-top-left-radius: 360px;
+  -webkit-border-top-right-radius: 360px;
+  -moz-border-top-right-radius: 360px;
+  -ms-border-top-right-radius: 360px;
+  border-top-right-radius: 360px;
+  -webkit-border-bottom-left-radius: 360px;
+  -moz-border-bottom-left-radius: 360px;
+  -ms-border-bottom-left-radius: 360px;
+  border-bottom-left-radius: 360px;
+  -webkit-border-bottom-right-radius: 360px;
+  -moz-border-bottom-right-radius: 360px;
+  -ms-border-bottom-right-radius: 360px;
+  border-bottom-right-radius: 360px;
+}
+
+.morphButton, .morphHeader {
+  opacity: 0;
+  background-color: #9932CC;
+  text-align: center;
+}
+
+.loading, .success, .failure {
+  color: white;
+  line-height: 34px !important;
+  text-align: center;
+  margin-top:25%;
+}
+
+.tooltip p {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.columns {
+  position: relative;
+}
+.iop{
+  }
+@media only screen and (max-width: 600px) {
+    .navbar-brand{
+       width: 50%;
+    }
+    .logoM{display:initial;}
+}
+
+</style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+    <div class="iop">
+  <div class="container-fuid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-cus ">
+        <a class="navbar-brand" href="#" style="color:white; font-weight: bold;"><img  class="logo" src="./image/logoTH.png"/></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse animated bounceInLeft" id="navbarSupportedContent">
+    &nbsp;&nbsp;&nbsp;
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a  class="nav-link" id="navbtn" href="">หน้าแรก</a></li>
+      <li class="nav-item"><a  class="nav-link" id="navbtn" href="">Change Password</a></li>
+      <li class="nav-item"><a  class="nav-link" id="navbtn" href="">รับสมัคร</a></li>
+      <li class="nav-item"><a  class="nav-link" id="navbtn" href="">กิจกรรม</a></li>
+      <li class="nav-item"><a  class="nav-link" id="navbtn" href="">แนะนำติชม/แจ้งปัญหาการใช้งาน</a></li>
+      <li class="nav-item"><a  class="nav-link" id="navbtn" href="">FAQ</a></li>
+    </ul>
+
+  </div>
+</nav>
+      
+      
+      
+      
+      
+      
+  </div>
+<br>
+   <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-12 mx-auto col-md-4 order-md-2">
+<form method="post" autocomplete="off">
+	<div class="row">
+		<div class="wrapper large-12 columns large-centered small-12 small-centered">
+			<div class="row header">
+				<div class="large-12 columns"><b><h4>เข้าใช้งานระบบ</h4></b></div>
+			</div>
+
+			<div class="row username" >
+				<div class="large-9 columns large-centered">
+					<label for="username"><i class="fa fa-user"></i></label>
+					<input id="username" type="email" name="username" placeholder="username" required="required" />
+				</div>
+			</div>
+
+			<div class="row password">
+				<div class="large-9 columns large-centered">
+					<label for="password"><i class="fa fa-lock"></i></label>
+					<input id="password" type="password" name="pass" placeholder="password" required="required" />
+				</div>
+			</div>
+
+			<div class="row submit">
+				<div class="large-7 columns large-centered">
+					<input type="submit" value="เข้าสู่ระบบ" >
+				</div>
+			</div>
+		</div>
+	</div>
+        </div> 
+          <span class="morphButton">
+	<i class="fa fa-spinner fa-spin loading"></i>
+	<i class="fa fa-check success"></i>
+	<i class="fa fa-times failure"></i>
+</span>
+         
+</form>
+            
+
+
+          <!--สไลด์-->
+        <div class="col-12 mx-auto col-md-8 order-md-1">
+          <div id="demo" class="carousel slide" data-ride="carousel" style="width:100%; height:40vh;">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="http://admission.up.ac.th/img/ban2017/pr-01.jpg" alt="Los Angeles"  style="width:100%; height:40vh;">
+    </div>
+    <div class="carousel-item">
+      <img src="http://admission.up.ac.th/img/ban2017/pr-01.jpg" alt="Chicago"  style="width:100%; height:40vh;">
+    </div>
+    <div class="carousel-item">
+      <img src="http://admission.up.ac.th/img/ban2017/pr-01.jpg" alt="New York"  style="width:100%; height:40vh;">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+        </div>
+          
+          
+      </div>
+</div>
+
+    </div>
+        
+        
+<div class="row align-items-center">
+      <div class="col-12 mx-auto col-12 order-md-1">
+        <div class="card border-primary mb-12">
+          <div class="card-header">
+            Quote
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+              <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+</div>
+<div class="container-fuid box" id="mainmenu">
+  <div class='wave -one'></div>
+<div class='wave -two'></div>
+<div class='wave -three'></div>
+  <br><br>
+  <div class="container">
+    <div class="row">
+  <div class="col-sm-4 offset-sm-2 col-md-4 offset-md-0">
+      <h5 style="color:white;">คู่มือ</h5><hr style="border-color:white;">
+      <a href="#">คู่มือการรับบริการและงานทะเบียนนิสิตและประมวลผล<span class="badge badge-primary">New</span></a><br>
+      <a href="#">การยื่นคำร้องออนไลน์</a><br>
+      <a href="#">การยื่นคำร้องออนไลน์ (เพิ่มเติม) </a><br>
+      <a href="#">คู่มือการยื่นคำร้องออนไลน์</a><br>
+      <a href="#">คู่มือการยื่นคำร้องออนไลน์</a><br>
+      <a href="#">คู่มือการใช้งานระบบบริการการศึกษา สำหรับอาจารย์(ฉบับย่อ)</a><br>
+      <a href="#">คู่มือสำหรับนิสิต ยื่นสำเร็จการศึกษา </a><br>
+      <a href="#">คู่มือสำหรับเจ้าหน้าที่ รับยื่นสำเร็จการศึกษา</a><br>
+      <a href="#">คู่มือยื่นความประสงค์ขอลงทะเบียนรายวิชา (UP20.1)</a><br>
+      <a href="#">คู่มือยื่นแบบฟอร์มการขอเปลี่ยนแปลงการสอนรายวิชา (UP20)</a><br>
+      <a href="#">คู่มือยื่นแบบฟอร์มขอเปิดรายวิชา/หมู่เรียน (UP21)</a><br>
+      <a href="#">คู่มือยื่นคำร้องขอเอกสารสำคัญทางการศึกษา (UP2, UP3)</a><br>
+      <a href="#">คําแนะนําสําหรับการขอเอกสารสําคัญทางการศึกษา (UP2, UP3)</a><br>
+</div>
+
+  <div class="col-sm-4 offset-sm-2 col-md-4 offset-md-0">
+    <h5 style="color:white;">กำหนดการขึ้นทะเบียนประวัติ </h5><hr style="border-color:white;">
+    <a href="#">คูจองหอพัก</a><br>
+    <a href="#">คูบันทึกทะเบียนประวัติ</a><br>
+    <h5 style="color:white;">	งานตารางสอน  </h5><hr style="border-color:white;">
+    <a href="#">คูรายวิชาเปิดสอน</a><br>
+<a href="#">คูตารางการใช้ห้อง</a><br>
+<a href="#">คูตารางสอนอาจารย์</a><br>
+    <h5 style="color:white;">ดาวน์โหลดแบบฟอร์ม  </h5><hr style="border-color:white;">
+    <a href="#">คูสำหรับปริญญาตรี</a><br>
+<a href="#">คูสำหรับบัณฑิตศึกษา</a><br>
+<a href="#">คูประกาศค่าธรรมเนียมการศึกษา</a><br>
+
+  </div>
+  <div class="col-sm-4 offset-sm-2 col-md-4 offset-md-0" >
+    <h5 style="color:white;">ปฏิทินการศึกษา  </h5><hr style="border-color:white;">
+    <a href="#">คูปฏิทินการศึกษา ปีการศึกษา 2561</a><br>
+<a href="#">คูปฏิทินการศึกษา ปีการศึกษา 2560</a><br>
+<a href="#">คูปฏิทินการศึกษา ปีการศึกษา 2559</a><br>
+<a href="#">คูปฏิทินการศึกษา ปีการศึกษา 2558</a><br>
+<a href="#">คูปฏิทินการการสอบภาษาอังกฤษ</a><br>
+<a href="#">คูAcademic Calendar</a><br>
+<h5 style="color:white;">เอกสาร/รายงานสถิติ </h5><hr style="border-color:white;">
+<a href="#">คูข้อมูลจำนวนนิสิตปัจจุบัน</a><br>
+<a href="#">คูข้อมูลจำนวนนิสิตปัจจุบัน จำแนกตามกลุ่มสาขาวิชา</a><br>
+  </div>
+  <div class="col-sm-4 offset-sm-2 col-md-4 offset-md-0">
+    <h5 style="color:white;">ข้อมูลแนะนำ</h5><hr style="border-color:white;">
+    <h6> ระบบสามารถใช้งานได้ดีกับ Web Browser</h6>
+    <a href="#">คู่มือการรับบริการและงานทะเบียนนิสิตและประมวลผล<span class="badge badge-primary">New</span></a><br>
+    <a href="#">การยื่นคำร้องออนไลน์</a><br>
+    <h6>ระบบสามารถใช้งานได้ดีกับ PDF viewer</h6>
+    <a href="#">การยื่นคำร้องออนไลน์</a><br>
+  </div>
+  <div class="col-sm-4 offset-sm-2 col-md-4 offset-md-0">
+
+  </div>
+  <div class="col-sm-4 offset-sm-2 col-md-4 offset-md-0">
+    <h5 style="color:white;">User Online  </h5><hr style="border-color:white;">
+    <h6>มีผู้ใช้งาน Online อยู่ 1 คน</h6>
+  </div>
+</div>
+</div><br><br>
+</div>
+
+</body>
+<footer style="background-color: #2E3747 !important;">
+  <div class="container-fuid" >
+    <div class="container">
+      <br>
+    มหาวิทยาลัยพะเยา, ระบบบริการการศึกษา<br>
+    Copyright © University of Phayao Page rendered in 0.1108 seconds, memory usage 2.45MB, IP : 10.204.10.83
+    <br><br>
+    </div>
+  </div>
+</footer>
+ <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+</html>
